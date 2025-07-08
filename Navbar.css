@@ -1,0 +1,63 @@
+/* src/Components/Navbar.css */
+
+/* Load Google Font (Pacifico) in index.html file's <head> */
+/* <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffffee;
+  padding: 16px 40px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #000000;
+  font-weight: normal;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  color: #ff6f00;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar-links a:hover {
+  color: #ff6f00;
+  transform: translateY(-1px);
+}
+
+.brand-link {
+  text-decoration: none;
+  color: #ff6f00; /* या yellow चाहिए तो #fbc02d */
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.brand-link:hover {
+  color: #ff6f00;
+}
+
+
+
